@@ -1,6 +1,6 @@
 import ui
 from Suudoku import *
-from FilePicker import *
+#from FilePicker import *
 
 NumX = 9
 NumY = 9
@@ -169,10 +169,11 @@ def number_clear_push(sender) :
 		update_hint2()
 	l_remain.text = str(su.getRemain())														
 def b_load_push(sender) :
-	fname = file_picker_dialog('Pick some .csv files', root_dir = './', multiple=False, select_dirs=False, file_pattern=r'^.*\.csv$', show_size = False)
-	print('fname = %s' %(fname))
+	#fname = file_picker_dialog('Pick some .csv #files', root_dir = './', multiple=False, select_dirs=False, file_pattern=r'^.*\.csv$', show_size = False)
+	#print('fname = %s' %(fname))
 	#def file_picker_dialog(title=None, root_dir=None, multiple=False,
 	#select_dirs=False, file_pattern=None, show_size=True):
+	pass
 
 def b_save_push(sender) :
 	pass
